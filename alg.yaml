@@ -1,0 +1,12 @@
+# range.yml
+name: alg5
+env: python # can be python or javascript
+# version: 1.0.1
+baseImage: python:3.7
+resources:
+  cpu: 0.1
+  gpu: 0 # if not needed just remove it from the file
+  mem: 256Mi
+code:
+  path: alg3.tar.gz
+  entryPoint: alg3.py

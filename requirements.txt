@@ -1,0 +1,3 @@
+--index-url=http://pypi.staging.hkube.io/
+--trusted-host=pypi.staging.hkube.io
+numpy
